@@ -18,11 +18,13 @@
     --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.06);
     
     /* Accents */
-    --accent-gradient: linear-gradient(135deg, #4f46e5, #7c3aed);
-    --accent-solid: #4f46e5;
-    --accent-solid-rgb: 79, 70, 229;
-    --accent-light: rgba(79, 70, 229, 0.08);
-    --card-glow: rgba(79, 70, 229, 0.15);
+        /* Accents */
+    --accent-gradient: linear-gradient(135deg, #F7B5CD, #f492b4);
+    --accent-solid: #F7B5CD;
+    --accent-solid-rgb: 247, 181, 205;
+    --accent-light: rgba(247, 181, 205, 0.08);
+    --card-glow: rgba(247, 181, 205, 0.15);
+    
     
     /* System States */
     --green-status: #10b981;
@@ -48,11 +50,13 @@
     --shadow-lg: 0 20px 40px rgba(0, 0, 0, 0.4);
     
     /* Accents */
-    --accent-gradient: linear-gradient(135deg, #6366f1, #a855f7);
-    --accent-solid: #6366f1;
-    --accent-solid-rgb: 99, 102, 241;
-    --accent-light: rgba(99, 102, 241, 0.15);
-    --card-glow: rgba(99, 102, 241, 0.25);
+        /* Accents */
+    --accent-gradient: linear-gradient(135deg, #F7B5CD, #f98fb3);
+    --accent-solid: #F7B5CD;
+    --accent-solid-rgb: 247, 181, 205;
+    --accent-light: rgba(247, 181, 205, 0.15);
+    --card-glow: rgba(247, 181, 205, 0.25);
+    
     
     /* System States */
     --green-status: #34d399;
@@ -209,9 +213,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn-primary {
     background: var(--accent-gradient);
-    color: #ffffff;
+    color: #0f172a;             /* <- To this for dark, clear text */
     border: none;
     box-shadow: 0 4px 15px rgba(var(--accent-solid-rgb), 0.3);
+}
+
+}
+
 }
 .btn-primary:hover {
     transform: translateY(-3px);
